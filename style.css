@@ -1,0 +1,60 @@
+body{
+    background-color: aliceblue;
+}
+
+header{
+    text-align: center;
+}
+
+section{
+    padding: 50px;
+    margin: 0 auto;
+    width: 300px;
+    height: 450px;
+    text-align: center;
+    background-color: rgb(166, 246, 5);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.69);
+}
+
+section div p{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+section div p:nth-of-type(3){
+    position:relative;
+    left: 10px;
+}
+
+section div p input[type=text]{
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+section div p input[type=number]{
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+#botao{
+    background-color: black;
+    color: yellowgreen;
+    padding: 10px 10px 10px 10px ;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 18px;
+   
+}
+
+#res{
+    background-color: black;
+    width:280px;
+    height: 220px;
+    margin: 0 auto;
+    opacity: 0.9;
+    border-radius: 10px;
+    color: yellowgreen;
+
+}
+
